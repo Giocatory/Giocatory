@@ -1,13 +1,12 @@
 {% load static %}
 
 <div class="nav-container">
-    <img src="{% static 'img/logo.png' %}" alt="">
+    <a href="{% url 'main_page' %}" class="logo"><img src="{% static 'img/logo.png' %}" alt=""></a>
     <ul>
-        <li>НейроКом</li>
-        <li>Курсы</li>
-        <li>Контакты</li>
-        <li>Автор</li>
-        <li>Блог</li>
-        <li>Войти</li>
+        <li class="active-link-br"><a href="/">Брэйнторг</a></li>
+        <li class="active-link-cr"><a href="/">Курсы</a></li>
+        <li class="active-link-ct"><a href="/">Контакты</a></li>
+        <li class="active-link-av"><a href="/">Автор</a></li>
+        <li class="active-link-bl"><a href="/">Блог</a></li>
     </ul>
 </div>

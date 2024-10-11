@@ -9,22 +9,30 @@
   margin-right: auto;
 }
 
-.nav-container  ul {
-  width: 70vw;
+.nav-container ul {
   display: flex;
+  width: 100vw;
   flex-direction: row;
   align-items: center;
   align-content: center;
   justify-content: center;
-
   list-style: none;
   padding: 1rem;
 }
-.nav-container  ul li{
+.nav-container ul .logo{
+  margin-right: auto;
+}
+.nav-container ul a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-container ul li{
   margin: 1.5em;
   color: #3a0d18;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.nav-container  ul li:last-child{
-  margin-left: auto;
+
+.nav-container ul li:hover{
+  text-shadow: 1px 6px 10px rgba(0, 176, 253, 0.69);
+  cursor: pointer;
 }
