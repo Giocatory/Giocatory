@@ -1,3 +1,5 @@
+@import "common_variables.css";
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -28,11 +30,11 @@
 }
 .nav-container ul li{
   margin: 1.5em;
-  color: #3a0d18;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--main-h-color);
+  font-family: var(--main-font-family);
 }
 
 .nav-container ul li:hover{
-  text-shadow: 1px 6px 10px rgba(0, 176, 253, 0.69);
+  text-shadow: var(--main-light-blue-background);
   cursor: pointer;
 }
