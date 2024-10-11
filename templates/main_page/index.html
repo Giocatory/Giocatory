@@ -1,9 +1,9 @@
 {% extends 'base.html' %}
 
-{% block title %}&Cconint;{{ title }}{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block navigation %}
-    навигация
+{% include 'navigation.html' %}
 {% endblock %}
 
 {% block content %}
@@ -11,5 +11,5 @@
 {% endblock %}
 
 {% block footer %}
-    футер
+{% include 'footer.html' %}
 {% endblock %}
