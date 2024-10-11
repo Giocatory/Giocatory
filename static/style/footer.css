@@ -1,0 +1,47 @@
+@import "common_variables.css";
+
+.footer-container{
+    background-color: rgba(0, 176, 253, 0.39);
+    color: #3a0d18;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+
+    -webkit-box-shadow: 0 -4px 13px 1px rgba(0, 176, 253, 0.49);
+    -moz-box-shadow: 0 -4px 13px 1px rgba(0, 176, 253, 0.49);
+    box-shadow: 0 -4px 13px 1px rgba(0, 176, 253, 0.49);
+}
+.footer-container a{
+    text-decoration: none;
+    color: #3a0d18;
+}
+
+.footer-container ul{
+    list-style: none;
+    margin: 0 3.5rem;
+    text-align: center;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.footer-container ul li:first-child{
+    margin-bottom: 1em;
+    color: #3a0d18;
+    font-weight: bold;
+}
+
+.footer-container ul li{
+    transition: 1s;
+    margin: .5em;
+}
+
+.footer-container li:hover{
+    text-shadow: 1px 6px 10px rgb(106, 30, 49);
+    transform: scale(1.2);
+}
